@@ -40,7 +40,6 @@ def train_linear_model(data_frame, target, features, polynomial, poly_degree = 2
 
     df = data_frame.copy()
     
-    
         
     X = df[features]
     y = df[target]
