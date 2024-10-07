@@ -1,5 +1,5 @@
 # <div align='center'> GDP and Wellbeing </div>
-## <div align='center'> - an Investigation into Connections Between GDP, Happiness, and Health of Nations </div>
+## <div align='center'> - an investigation into connections between GDP, happiness, and health of nations </div>
 
 ### Introduction
 How to distribute a nation's wealth, ensure its growth, and secure the well-being of its citizens are questions that both politicians and citizens care about—or at least should care about. The goal of this project is to produce insights that can help answer these questions in ways that benefit both politicians and citizens.
