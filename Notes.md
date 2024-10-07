@@ -1,5 +1,8 @@
 # Notes
 
+### Streamlit:
+- https://www.youtube.com/watch?v=D0D4Pa22iG0
+
 ### Questions for dashboard:
 
 - What influences the gdp most? Happiness, unemployment, taxation or social expenditure?
