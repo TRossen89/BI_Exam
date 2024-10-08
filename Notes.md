@@ -1,5 +1,8 @@
 # Notes
 
+### Updates on README.md:
+- Interest was to see if social expenditure and happiness had an impact on gdp and he connections between these. Eventually a model which from data of all the different government expenditures (government budgets), country characteristics and global finance events could predict the gdp of a country, so that leaders could find the optimal budgets regarding eventual gdp and happiness
+
 ### Streamlit:
 - https://www.youtube.com/watch?v=D0D4Pa22iG0
 
