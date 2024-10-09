@@ -36,7 +36,7 @@ def train_linear_model_xy(X_train, X_test, y_train, y_test):
     return model
     
 
-def train_linear_model(data_frame, target, features, polynomial, poly_degree = 2):  
+def train_and_test_linear_model(data_frame, target, features, t_size, polynomial, poly_degree = 2):  
 
     df = data_frame.copy()
     
@@ -44,7 +44,7 @@ def train_linear_model(data_frame, target, features, polynomial, poly_degree = 2
     X = df[features]
     y = df[target]
     
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20, random_state=42)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=t_size, random_state=42)
 
     
     if polynomial == True:
