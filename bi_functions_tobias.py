@@ -166,7 +166,7 @@ def calculate_outliers (df_passed, df = True, exclude_columns = False, remove_ou
     else:
         print("No outliers deleted ")
     
-    print("Total number of outliers (if there is more outliers than deleted rows it means that some rows contain outliers in more than one column): " + str(total_number_of_outliers)) 
+    print("Total number of outliers (if there are more outliers than deleted rows it means that some rows contain outliers in more than one column): " + str(total_number_of_outliers)) 
     
     
     if df == True and remove_outliers == True:
