@@ -17,20 +17,24 @@ Additionally:
 
 ### Guide to the repository:
 
-#### Extraction and cleaning of data
-I have used 4 different data sets from 4 different sources. The extraction and basic cleaning of the different dataset happens in four different Jupyter Notebooks which names all starts with 'Extracting...'. In all of these Notebooks one or two data frames has been saved in the 'dataframes.h5' file. In the Notebook called 'Merging_data_frames' I have loaded the cleaned data frames from  'dataframes.h5' and merged them into different data frames and saved then them in the 'dataframes.h5' file as well.  
+#### Extraction and cleaning of data (
+I have used 4 different data sets from 4 different sources. Accordingly the extraction and basic cleaning of the different dataset happens in four different Jupyter Notebooks which names all starts with 'Extracting...'. In all of these Notebooks one or two data frames has been saved in the 'dataframes.h5' file. In the Notebook called 'Merging_data_frames' I have loaded the cleaned data frames from  'dataframes.h5' and merged them into different data frames and saved then them in the 'dataframes.h5' file as well.  
 
 All data frames in 'dataframes.h5' has been cleaned and follow a specific structure: 
 - There are no missing values
 - There are no duplicates
-- They all have a 'Country' (type: object) and a 'Year' (type: int64) column identifying each row, and then a set of features (type: float64)
 - Outliers are included
+- They all have a 'Country' (type: object) and a 'Year' (type: int64) column identifying each row, and then a set of features (type: float64)
+- Irrelevant columns (columns not being a country feature or country identifier) has been removed
 
-This cleaning and structure was to make it easy to merge the data and to have different data sets to work with without being concerned of their structure and whether they had been cleaned.
+
+This cleaning and structure was to make it easy to merge the data and to have different data sets to work with without being concerned about their structure and whether they had been cleaned.
 Outliers were included because I judged that the inclusion or exclusion of outliers depended what I wanted to do with the data. 
 
 #### Working with the data and creating models
-I have chosen to work with two data frames of the several data frames saved in 'dataframes.h5'. 
+I have chosen to work with two data frames of the several data frames saved in 'dataframes.h5': 'happines_df' and 'all_df'.  
+'happines_df' contain data from one source: World Happiness Report. 'all_df' is a merged data frame which contain data from all data sets extracted.  
+In 
 
  
 
