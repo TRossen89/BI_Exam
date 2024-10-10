@@ -3,7 +3,7 @@
 
 ### Introduction
 
-The distribution of wealth within a country and the strategies to ensure its future prosperity are critical issues for both politicians and citizens. My objective with this project has been to generate insights that can help inform these stakeholders' decisions based on objective analysis. I consider this project a preliminary investigation that, through further research, will develop machine learning models capable of predicting GDP with sufficient accuracy to assist politicians in making informed decisions about wealth distribution in their respective countries. My focus in this preliminary project has been on factors such as happiness, social expenditure, taxation, and unemployment as predictors of GDP. These variables are of particular interest to me, and I hypothesized that they are interconnected with GDP in such a way that GDP can be predicted with a reasonable degree of certainty based on these features.   
+> The distribution of wealth within a country and the strategies to ensure its future prosperity are critical issues for both politicians and citizens. My objective with this project has been to   > generate insights that can help inform these stakeholders' decisions based on objective analysis. I consider this project a preliminary investigation that, through further research, will develop machine learning models capable of predicting GDP with sufficient accuracy to assist politicians in making informed decisions about wealth distribution in their respective countries. My focus in this preliminary project has been on factors such as happiness, social expenditure, taxation, and unemployment as predictors of GDP. These variables are of particular interest to me, and I hypothesized that they are interconnected with GDP in such a way that GDP can be predicted with a reasonable degree of certainty based on these features.   
 
 My problem formulation for this project has been:
 
@@ -18,7 +18,7 @@ Additionally:
   
 ### Guide to the repository:
 
-#### Extraction and cleaning of data (
+#### Extraction and cleaning of data
 I have used 4 different data sets from 4 different sources. Accordingly the extraction and basic cleaning of the different dataset happens in four different Jupyter Notebooks which names all starts with 'Extracting...'. In all of these Notebooks one or two data frames has been saved in the 'dataframes.h5' file. In the Notebook called 'Merging_data_frames.ipynb' I have loaded the cleaned data frames from  'dataframes.h5' and merged them into different data frames and saved then them in the 'dataframes.h5' file as well.  
 
 All data frames in 'dataframes.h5' has been cleaned and follow a specific structure: 
