@@ -12,6 +12,6 @@ Additionally:
   
 - "Can data on well-being, health, unemployment, social expenditure, taxation, and GDP provide insights into what enhances or diminishes the GDP and well-being of nations?"
   
-This research is important and interesting because the answers to these questions can have a direct impact on the wealth and well-being of citizens worldwide. The insights from this investigation could potentially help politicians and citizens alike to secure greater wealth and well-being for their countries.  
+This research is relevant because the answers to these questions can have a direct impact on the wealth and well-being of citizens worldwide. The insights from this investigation could potentially help politicians and citizens alike to secure greater wealth and well-being for their countries.  
   
 Before starting this project, my hypothesis was that well-being would have at least a small positive effect on GDP and that wealth and well-being would show a positive correlation. I also expected to find that a nation's GDP increases the healthier and happier its population is, the lower its unemployment rate is, the more it spends on social welfare, and the higher its taxes are.
