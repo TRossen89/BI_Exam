@@ -3,9 +3,9 @@
 
 ### Introduction
 
-The distribution of a country's wealth and how to ensure the future wealth of a country, are questions that concern most politicans and citizens. My goal with this project has been to produce insights that can help politicians and citizens answer these questions. The project is based on data about the happiness, social expenditure, taxation, unemployment and GDP of different countries. It is expected that these features are connected in some way and that GDP can be predicted with some certainty from the other features. I see this project as a preliminary investigation that, with further investigations, will provide machine learning models which can predict GDP with enough precision to be used for politicians as a way to 
+The distribution of wealth within a country and the strategies to ensure its future prosperity are critical issues for both politicians and citizens. My objective with this project has been to generate insights that can help inform these stakeholders' decisions based on objective analysis. I consider this project a preliminary investigation that, through further research, will develop machine learning models capable of predicting GDP with sufficient accuracy to assist politicians in making informed decisions about wealth distribution in their respective countries. My focus in this preliminary project has been on factors such as happiness, social expenditure, taxation, and unemployment as predictors of GDP. These variables are of particular interest to me, and I hypothesized that they are interconnected with GDP in such a way that GDP can be predicted with a reasonable degree of certainty based on these features.   
 
-More precisely, the project had the following problem formulation:
+My problem formulation for this project has been:
 
 - "Does the happiness of nations influence their GDP and can a machine learning model predict GDP from happiness indicators?"  
   
