@@ -7,6 +7,31 @@ from sklearn.preprocessing import StandardScaler, PolynomialFeatures
 from sklearn import metrics
 import numpy as np
 from sklearn.pipeline import make_pipeline
+import pycountry_convert as pc
+from sklearn.preprocessing import StandardScaler
+
+def get_continent(country_name):
+    try:
+        # Get the country code
+        country_alpha2 = pc.country_name_to_country_alpha2(country_name)
+        # Map to continent code
+        continent_code = pc.country_alpha2_to_continent_code(country_alpha2)
+        # Map continent code to name
+        continents = {
+            'AF': 'Africa',
+            'NA': 'North America',
+            'SA': 'South America',
+            'AS': 'Asia',
+            'EU': 'Europe',
+            'OC': 'Oceania',
+            'AN': 'Antarctica'
+        }
+        return continents.get(continent_code)
+    except KeyError:
+        return None
+
+
+
 
 def train_linear_model_xy(X_train, X_test, y_train, y_test):
     
@@ -48,6 +73,10 @@ def train_and_test_linear_model(data_frame, target, features, t_size, polynomial
 
     
     if polynomial == True:
+        scaler = StandardScaler()
+        
+        X_train = scaler.fit_transform(X_train)
+        X_test = scaler.transform(X_test)
         
         poly = PolynomialFeatures(degree=poly_degree, include_bias=False)
 
@@ -77,7 +106,11 @@ def train_and_test_linear_model(data_frame, target, features, t_size, polynomial
     
     print(metrics_df)  
 
-    return model
+    if polynomial == True:
+
+        return model, poly, scaler
+    else:
+        return model
 
 
 

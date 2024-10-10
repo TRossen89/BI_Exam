@@ -6,7 +6,7 @@ st.write("In this app you can explore and get insights from data about the happi
 
 st.write("### Guide:")
 
-st.write("- **Data:** In the 'data' section you can view the data used for charts and model training, get information about the data and how it's aggregated. Additionally you can view some visualizations of the datasets' statistical features")
+st.write("- **Data:** In the 'data' section you can view the data used for charts and model training. You can get some information about the data and how it's aggregated and you can view some visualizations of the datasets' statistical features")
 
 st.write("- **Charts:** In the 'charts' section you can view a few charts visualizing some interesting comparisons between the countries, between the different data features' predictive power related to GDP and bewteen some clusters of countries based on happiness features")
 
