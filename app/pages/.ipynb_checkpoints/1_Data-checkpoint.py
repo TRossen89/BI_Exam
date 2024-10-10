@@ -5,7 +5,7 @@ import seaborn as sns
 
 st.write("# Data")
 st.write("")
-st.write("Here you can get an overview of the data used for the charts and machine learning models in the other sections. In the side bar on the left you can choose between 2 different data sets used for this app")
+st.write("Here you can get an overview of the data used for the charts and machine learning model in the other sections. In the side bar on the left you can choose between 2 different data sets used for this app")
 st.write("---")
 
 data_source = st.sidebar.selectbox("Select a dataset:", ["World Happiness", "GDP, Happiness, Social Expenditure, Taxation and Unemployment"])
@@ -30,7 +30,7 @@ if data_source == "World Happiness":
 
     st.write("### **Dataset:** World Happiness")
 
-    st.write("This data contain yearly measures of the happiness of different countries, where the happiness is measured through different 9 different features GDP per capita being one of them). The data is extracted from the worldhappiness.report webpage. The data is from 2023. The data presented here has been cleaned after extraction. You can get the raw data from the link below.")
+    st.write("This data contain yearly measures of the happiness of different countries, where the happiness is measured through 9 different features, log GDP per capita being one of them. The data is extracted from the worldhappiness.report webpage. The data is from 2023. The data presented here has been cleaned after extraction. You can get the raw data from the link below.")
     
     st.write("Link: https://worldhappiness.report/data/")
     st.write("")

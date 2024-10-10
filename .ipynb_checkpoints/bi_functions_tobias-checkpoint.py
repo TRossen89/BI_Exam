@@ -12,11 +12,11 @@ from sklearn.preprocessing import StandardScaler
 
 def get_continent(country_name):
     try:
-        # Get the country code
+       
         country_alpha2 = pc.country_name_to_country_alpha2(country_name)
-        # Map to continent code
+        
         continent_code = pc.country_alpha2_to_continent_code(country_alpha2)
-        # Map continent code to name
+        
         continents = {
             'AF': 'Africa',
             'NA': 'North America',
