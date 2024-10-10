@@ -13,11 +13,6 @@ Additionally:
   
 - "Can data on happiness, health, unemployment, social expenditure, taxation, and GDP provide insights into what enhances or diminishes the GDP of nations?"
   
- 
-
-Before starting this project, my hypothesis was that happiness would have at least a small positive effect on or correlation with GDP. I also expected to find that a nation's GDP increases the happier its population is, the lower its unemployment rate is, the more it spends on social welfare, and the higher its taxes are.
-
-
 
 
 ### Guide to the repository:
