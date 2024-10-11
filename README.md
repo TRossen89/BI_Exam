@@ -32,12 +32,15 @@
 >This cleaning and structure was to make it easy to merge the data and to have different data sets to work with without being concerned about their structure and whether they had been cleaned.
 >Outliers were included because I judged that the inclusion or exclusion of outliers depended what I wanted to do with the data. 
   
-#### Working with the data and creating models
-I have chosen to work with two data frames of the several data frames saved in 'dataframes.h5': 'happines_df' and 'all_df'.  
-'happines_df' contain data from one source: World Happiness Report. 'all_df' is a merged data frame which contain data from all data sets extracted.  
-In 'all_data_df.ipynb' I work with 'all_df' and in 'happiness_data.ipynb' I work with 'happiness_df'. Here I explore the statistical features of the datasets, create charts and train and test machine learning models. In 'happiness_data.ipynb' a polynomial model is saved in the 'poly_model.pkl' file. It was the best model I trained and tested and therefore I chose to save that for the streamlit app. 
+>#### Working with the data and creating models
+>I have chosen to work with two data frames of the several data frames saved in 'dataframes.h5': 'happines_df' and 'all_df'.  
+>'happines_df' contain data from one source: World Happiness Report. 'all_df' is a merged data frame which contain data from all data sets extracted.  
+>In 'all_data_df.ipynb' I work with 'all_df' and in 'happiness_data.ipynb' I work with 'happiness_df'. Here I explore the statistical features of the datasets, create charts and train and test machine learning models. In 'happiness_data.ipynb' a polynomial model is saved in the 'poly_model.pkl' file. It was the best model I trained and tested and therefore I chose to save that for the streamlit app. 
   
-#### Streamlit app
+>#### Streamlit app
+>In the folder named 'app' there is a streamlit app showing some of the data visualizations and machine learning model I have created. The two data frames I've worked with is also presented.
+>
+>#### 
 
 
 
