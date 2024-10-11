@@ -13,6 +13,8 @@ Additionally:
   
 - *"Can data on happiness, health, unemployment, social expenditure, taxation, and GDP provide insights into what enhances or diminishes the GDP of nations?"*
   
+
+
   
 ---
   
@@ -43,6 +45,14 @@ In the folder named 'app' there is a streamlit app showing some of the data visu
   
 #### _Irrelevant folder and irrelevant data sets_
 The folder 'Initial_messy_research' contains a Notebook with my initial data search and exploration. Nothing from that Notebook is used two answer my problem formulation or create my streamlit app. The 'All data files' folder contains several data sets used in the Notebook in 'Initial_messy_research'.
+
+---
+
+### Short conclusion
+
+My data exploration  show that there is a high correlation between the happiness indicator 'Life Ladder' and GDP. The correlation doesn't say anything about whether it's the Life Ladder that causes GDP or reverse, so I can't say much about whether happiness influence GDP.
+My investigation into 
+I have created one machine learning model that can predict GDP from happiness indicators which had an R-Squared of 0.728 when tested on data it wasn't trained on. This model was the best model when the whole World Happiness data set was used for traning and testing.  
 
 
 
