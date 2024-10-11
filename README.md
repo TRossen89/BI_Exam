@@ -20,7 +20,7 @@ Additionally:
 
 #### _Extraction and cleaning of data_
 I have used 4 different data sets from 4 different sources. These 4 data sets are downloaded from 4 different webpages and stored as either csv, tsv or xlsx files in the folder named 'All_data_files'.   
-I have performed the basic cleaning of the different datasets in four different Jupyter Notebooks. Their names all start with 'Extracting...'. In these Notebooks one or two data frames has been saved in the 'dataframes.h5' file. In the Notebook called 'Merging_data_frames.ipynb' I have loaded the cleaned data frames from 'dataframes.h5' and merged theste frames together and thereby created new data frames. These are saved in the 'dataframes.h5' file as well.  
+I have performed the basic cleaning of the different datasets in four different Jupyter Notebooks. Their names all start with 'Extracting...'. In these Notebooks links to the webpages where the datasets are downloaded from are provided. Also, in each of theses Notebooks, one or two data frames have been saved in the 'dataframes.h5' file. In the Notebook called 'Merging_data_frames.ipynb' I have loaded the cleaned data frames from 'dataframes.h5' and merged these data frames together and thereby created new data frames. These are saved in the 'dataframes.h5' file as well.  
 
 All data frames in 'dataframes.h5' has been cleaned and follow a specific structure: 
 - There are no missing values
