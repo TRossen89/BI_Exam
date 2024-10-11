@@ -12,8 +12,6 @@ The distribution of wealth within a country and the strategies to ensure its fut
 Additionally:  
   
 - *"Can data on happiness, health, unemployment, social expenditure, taxation, and GDP provide insights into what enhances or diminishes the GDP of nations?"*
-  
-
 
   
 ---
@@ -38,7 +36,9 @@ Outliers were included because I judged that the inclusion or exclusion of outli
 #### _Working with the data and creating models_
 I have chosen to work with two data frames of the several data frames saved in 'dataframes.h5': 'happines_df' and 'all_df'.  
 'happines_df' contain data from one source: World Happiness Report. 'all_df' is a merged data frame which contain data from all data sets extracted.  
-In 'all_data_df.ipynb' I work with 'all_df' and in 'happiness_data.ipynb' I work with 'happiness_df'. Here I explore the statistical features of the datasets, create charts and train and test machine learning models. In 'happiness_data.ipynb' a polynomial model is saved in the 'poly_model.pkl' file. It was the best model I trained and tested and therefore I chose to save that for the streamlit app. 
+In 'all_data_df.ipynb' I work with 'all_df' and in 'happiness_data.ipynb' I work with 'happiness_df'. 
+- 'all_data_df.ipynb': Here I explore the dataset, prepare it for machine learning, create charts showing a summarization of the features and train and test different machine learning models trying to predict GDP. 
+- 'happiness_data.ipynb': Here I explore the dataset, prepare it for machine learning and train and test different machine learning models that could predict GDP from the other happiness features. I also train an unsupervised machine learning model to cluster the data from 6 of the happiness features. This was to see if some clusters of countries was better at predicting GDP from happiness features than others. In the Notebook one machine learning model is saved in the 'poly_model.pkl' file. It was the best model I trained and tested using the full happinness data set and therefore I chose to save that for the streamlit app.   
   
 #### _Streamlit app_
 In the folder named 'app' there is a streamlit app showing some of the data visualizations and machine learning model I have created. The two data frames I've worked with is also presented.  
@@ -48,10 +48,11 @@ The folder 'Initial_messy_research' contains a Notebook with my initial data sea
 
 ---
 
-### Short conclusion
+### Brief Conclusions
 
-My data exploration  show that there is a high correlation between the happiness indicator 'Life Ladder' and GDP. The correlation doesn't say anything about whether it's the Life Ladder that causes GDP or reverse, so I can't say much about whether happiness influence GDP.
-My investigation into 
+My data exploration show that there is a high correlation between the happiness indicator 'Life Ladder' and GDP. The correlation doesn't say anything about whether it's the Life Ladder that causes GDP or reverse, so I can't say much about whether happiness influence GDP from this. 
+My investigation into happiness features and GDP 
+
 I have created one machine learning model that can predict GDP from happiness indicators which had an R-Squared of 0.728 when tested on data it wasn't trained on. This model was the best model when the whole World Happiness data set was used for traning and testing.  
 
 
