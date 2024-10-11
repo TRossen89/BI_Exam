@@ -11,7 +11,7 @@ The distribution of wealth within a country and the strategies to ensure its fut
   
 Additionally:  
   
-- *"Can data on happiness, health, unemployment, social expenditure, taxation, and GDP provide insights into what enhances or diminishes the GDP of nations?"*
+- *"Can data on happiness, unemployment, social expenditure, taxation, and GDP provide insights into what enhances or diminishes the GDP of nations?"*
 
   
 ---
@@ -50,13 +50,10 @@ The folder 'Initial_messy_research' contains a Notebook with my initial data sea
 
 ### Brief Conclusions
 
-My data exploration in both of the used data frames show that there is a high correlation between the happiness indicator 'Life Ladder' and GDP. The correlation doesn't say anything about whether it's the Life Ladder that causes GDP or reverse, so I can't say much about whether happiness influence GDP from this. 
-My investigation into the happiness data frame and into whether the happiness features can predict GDP, I found that a polynomial regression model was the best at predicting the GDP when the whole data set was splittet in a training and testing set. It had an R-Squared of 0.728 when tested on data it wasn't trained on.  
-My clustering of the data based on 6 happiness features gave me 3 clusters (chosen from a combination of the elbow method and silhoutte score). One of these clusters produced the best model for predicting GDP based on happiness features. A linear regression model was trained with an R-Squared of 0.808 when tested on data it wasn't trained on. The other two clusters had an R-Squared around 0.6. This indicates that in a group of countries their might be a more close connection between happiness and GDP than in others, although the clusterings silhoutte score were only around .25 indicating that the clusters arend that separated.   
-
-I have created one machine learning model that can predict GDP from happiness indicators which had an R-Squared of 0.728 when tested on data it wasn't trained on. This model was the best model when the whole World Happiness data set was used for traning and testing.  
-
-
+- My data exploration in both of the used data frames show that there is a high correlation between the happiness indicator 'Life Ladder' and GDP. The correlation doesn't say anything about whether it's the Life Ladder that causes GDP or reverse, so I can't say much about whether happiness influence GDP from this. 
+- My investigation into the happiness data frame and into whether the happiness features can predict GDP, I found that a polynomial regression model was the best at predicting the GDP when the whole data set was splittet in a training and testing set. It had an R-Squared of 0.728 when tested on data it wasn't trained on.  
+- My clustering of the data based on 6 happiness features gave me 3 clusters (chosen from a combination of the elbow method and silhoutte score). One of these clusters produced the best model for predicting GDP based on happiness features. A linear regression model was trained with an R-Squared of 0.808 when tested on data it wasn't trained on. The other two clusters had an R-Squared around 0.6. This indicates that in a group of countries their might be a more close connection between happiness and GDP than in others, although the clusterings silhoutte score were only around .25 indicating that the clusters arend that separated.
+- My investigation of my own aggregated data frame (all_df) showed that happiness, unemployment, social expenditure and taxation together couldn't predict GDP that well. All my linear regression models trained had an R-Squared under 0.55 and the decission tree regressor model had an R-Squared of 0.66. The decision tree did show that Life Ladder was by far the most important feature of those 4 features when predicting GDP. In general the investigations from this data set indicated that unemployment, social expenditure and taxation has no direct impact on GDP. This is visualized in a bar chart showing that there is no clear difference between the 3 countries with a the highest GDP over 10 years and the 3 countries with the lowest GDP over 10 years when it comes to measures of unemployment, social expenditure and taxation. 
 
  
 
