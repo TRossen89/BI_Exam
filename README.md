@@ -38,7 +38,10 @@ I have chosen to work with two data frames of the several data frames saved in '
 'happines_df' contain data from one source: World Happiness Report. 'all_df' is a merged data frame which contain data from all datasets extracted.    
 In 'all_data_df.ipynb' I work with 'all_df' and in 'happiness_data.ipynb' I work with 'happiness_df'. 
 - **'all_data_df.ipynb'**: Here I explore the dataset, prepare it for machine learning, create charts showing a summarization of the features and train and test different machine learning models trying to predict GDP. 
-- **'happiness_data.ipynb'**: Here I explore the dataset, prepare it for machine learning and train and test different machine learning models that could predict GDP from the other happiness features. I also train an unsupervised machine learning model to cluster the data from 6 of the happiness features. This was to see if some clusters of countries was better at predicting GDP from happiness features than others. One machine learning model is saved in the 'poly_model.pkl' file. It was the best model I trained and tested using the full happinness dataset and therefore I chose to save that for the streamlit app.   
+- **'happiness_data.ipynb'**: Here I explore the dataset, prepare it for machine learning and train and test different machine learning models that could predict GDP from the other happiness features. I also train an unsupervised machine learning model to cluster the data from 6 of the happiness features. This was to see if some clusters of countries was better at predicting GDP from happiness features than others. One machine learning model is saved in the 'poly_model.pkl' file. It was the best model I trained and tested using the full happinness dataset and therefore I chose to save that for the streamlit app.
+
+#### _bi_functions_tobias_
+The python file named bi_functions_tobias contain different functions that I have coded. There is an calculating outliers function, two train linear models functions and a get the continent of a country function. These functions are used when working with data in **'all_data_df.ipynb'** and **'happiness_data.ipynb'**.
   
 #### _Streamlit app_
 In the folder named 'app' there is a streamlit app showing some of the data visualizations and machine learning model I have created. The two data frames I've worked with are also presented.  
