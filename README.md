@@ -46,7 +46,7 @@ The python file named 'bi_functions_tobias.py' contain different functions that 
 #### _Streamlit app_
 In the folder named 'app' there is a streamlit app showing some of the data visualizations and machine learning model I have created. The two data frames I've worked with are also presented.  
   
-#### _Irrelevant folder and irrelevant data sets_
+#### _Irrelevant folder and irrelevant datasets_
 The folder 'Initial_messy_research' contains a Notebook with my initial data search and exploration. Nothing from that Notebook is used two answer my problem formulation or create my streamlit app. The 'All data files' folder contains several datasets used in the Notebook in 'Initial_messy_research'.
 
 ---
