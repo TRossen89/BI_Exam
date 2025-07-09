@@ -1,3 +1,18 @@
+**Note:** To run the app, install the dependencies using:
+```bash
+pip install streamlit
+pip install matplotlib
+pip install seaborn
+pip install scikit-learn
+pip install pandas
+pip install table
+```
+Then navigate to the app folder and run:
+```bash 
+streamlit run Frontpage.py
+``` 
+
+
 # <div align='center'> GDP and Happiness </div>
 ## <div align='center'> - an investigation into connections between nations' Happiness, Social Expenditure, Taxation, Unemployment and GDP </div>
 
