@@ -1,11 +1,6 @@
 **Note:** To run the app, install the dependencies using:
 ```bash
-pip install streamlit
-pip install matplotlib
-pip install seaborn
-pip install scikit-learn
-pip install pandas
-pip install table
+pip install streamlit matplotlib seaborn scikit-learn pandas table
 ```
 Then navigate to the app folder and run:
 ```bash 
